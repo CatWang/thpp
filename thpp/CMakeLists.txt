@@ -23,7 +23,7 @@ SET(CMAKE_MODULE_PATH
 INCLUDE(MultiLevelIncludes)
 MLI_SET_DEPTH(1)
 
-SET(Torch_DIR ${HOME}/torch/install/share/cmake/torch)
+SET(Torch_DIR /home/jinxiao/torch/install/share/cmake/torch)
 
 FIND_PACKAGE(Torch REQUIRED)
 
